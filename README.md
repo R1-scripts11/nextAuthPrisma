@@ -6,11 +6,11 @@ Tout d'abord, lancez le serveur de développement :
 
 bash
 npm run dev
-# ou
+# or
 yarn dev
-# ou
+# or
 pnpm dev
-# ou
+# or
 bun dev
 
 Ouvrez http://localhost:3000 avec votre navigateur pour voir le résultat.
