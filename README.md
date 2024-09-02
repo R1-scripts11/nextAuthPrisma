@@ -4,14 +4,15 @@ Ceci est un projet [Next.js](https://nextjs.org/)
 
 Tout d'abord, lancez le serveur de développement :
 
-bash
+```console
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
+```
 
 Ouvrez http://localhost:3000 avec votre navigateur pour voir le résultat.
 
