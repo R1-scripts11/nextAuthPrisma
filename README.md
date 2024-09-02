@@ -4,6 +4,7 @@ Ceci est un projet [Next.js](https://nextjs.org/)
 
 Tout d'abord, lancez le serveur de développement :
 
+bash
 npm run dev
 # ou
 yarn dev
