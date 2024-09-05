@@ -4,7 +4,8 @@ import { options } from "./api/auth/[...nextauth]/options";
 
 export default async function Home() {
   const session = await getServerSession(options)
-
+  console.log(options)
+  console.log(session)
   if (session) {
     return <p>{JSON.stringify(session, null, 2)}</p>
   }

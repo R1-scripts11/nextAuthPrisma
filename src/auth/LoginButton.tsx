@@ -1,14 +1,9 @@
 "use client"
-import { signIn } from 'next-auth/react'
+import Link from 'next/link'
 
 export const LoginButton = () => {
+
     return (
-        <button 
-        onClick={ async () => {
-            await signIn();
-        }}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
-        Login
-        </button>
+        <Link href="/auth/login">Login</Link>
     )
 }
